@@ -12,6 +12,7 @@
     </properties>
     <modules>
         <module>super-heroes/ui-super-heroes</module>
+        <module>super-heroes/rest-villains</module>
     </modules>
     <build>
         <plugins>
@@ -108,13 +109,13 @@
                 </file>
             </activation>
             <modules>
-                <module>super-heroes/extension-version</module>
+<!--                <module>super-heroes/extension-version</module>-->
                 <module>super-heroes/rest-villains</module>
-                <module>super-heroes/rest-heroes</module>
-                <module>super-heroes/rest-fights</module>
-                <module>super-heroes/event-statistics</module>
-                <module>super-heroes/rest-narration</module>
-                <module>super-heroes/load-super-heroes</module>
+<!--                <module>super-heroes/rest-heroes</module>-->
+<!--                <module>super-heroes/rest-fights</module>-->
+<!--                <module>super-heroes/event-statistics</module>-->
+<!--                <module>super-heroes/rest-narration</module>-->
+<!--                <module>super-heroes/load-super-heroes</module>-->
             </modules>
         </profile>
         <profile>
@@ -128,20 +129,20 @@
             </activation>
             <modules>
                 <module>super-heroes/rest-villains</module>
-                <module>super-heroes/rest-heroes</module>
-                <module>super-heroes/rest-fights</module>
+<!--                <module>super-heroes/rest-heroes</module>-->
+<!--                <module>super-heroes/rest-fights</module>-->
             </modules>
         </profile>
         <profile>
             <id>full</id> <!-- Needs to be manually invoked or it will trigger in the CI, #280 should fix -->
             <modules>
-                <module>super-heroes/extension-version</module>
+<!--                <module>super-heroes/extension-version</module>-->
                 <module>super-heroes/rest-villains</module>
-                <module>super-heroes/rest-heroes</module>
-                <module>super-heroes/rest-fights</module>
-                <module>super-heroes/event-statistics</module>
-                <module>super-heroes/rest-narration</module>
-                <module>docs</module>
+<!--                <module>super-heroes/rest-heroes</module>-->
+<!--                <module>super-heroes/rest-fights</module>-->
+<!--                <module>super-heroes/event-statistics</module>-->
+<!--                <module>super-heroes/rest-narration</module>-->
+<!--                <module>docs</module>-->
             </modules>
         </profile>
     </profiles>
